@@ -1,26 +1,12 @@
-import { EmailParams, Recipient, Sender } from 'mailersend';
+
 import SubmitButton from './hero-form-button';
-import mailersend from '@/lib/mailsend-init';
+
 
 
 export default function HeroForm() {
     async function emailSubmit(formData: FormData){
         'use server'
-        try{
-          const email: string = formData.get('Email Address')?.toString() || ""
-          const sedFrom = new Sender("amritpalcheema1408@gmail.com", "Amrit")
-          const recipients = [new Recipient(email, "amrit2")]
-          const emailParams = new EmailParams()
-          .setFrom(sedFrom)
-          .setTo(recipients)
-          .setReplyTo(sedFrom)
-          .setSubject("This is a Subject")
-          .setHtml("<strong>This is the HTML content</strong>")
-          .setText("This is the text content");
-        await mailersend.email.send(emailParams)
-        } catch (error) {
-          console.error(error)
-        }
+        
     }
     return (
         <form className="max-w-lg mx-auto lg:ml-0" action={emailSubmit}>
