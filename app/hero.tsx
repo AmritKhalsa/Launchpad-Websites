@@ -116,7 +116,7 @@ export default function Hero() {
             Analitics and Insights
           </h1>
           <p className="font-light text-gray-500 dark:text-gray-400">
-            oWe provide you with the tools to track your website&apos;s performance.
+            We provide you with the tools to track your website&apos;s performance.
           </p>
         </div>
       </div>
