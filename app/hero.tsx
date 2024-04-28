@@ -15,9 +15,9 @@ export default function Hero() {
             >
             <span className="px-3 py-1 mr-3 text-xs text-white rounded-full bg-third-600">
                 New
-            </span>{" "}
+            </span>
             <span className="text-sm text-secondary-700 dark:text-secondary-200 font-medium">
-                New pricing plans! See what's new
+                New pricing plans! See what&apos;s new
             </span>
             
                 <svg
@@ -116,7 +116,7 @@ export default function Hero() {
             Analitics and Insights
           </h1>
           <p className="font-light text-gray-500 dark:text-gray-400">
-            We provide you with the tools to track your website's performance.
+            We provide you with the tools to track your website&apos;s performance.
           </p>
         </div>
       </div>

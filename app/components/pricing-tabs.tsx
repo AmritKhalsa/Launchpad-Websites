@@ -79,7 +79,7 @@ export default function PricingTabs() {
                 </Link>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                     *To see the monthly email send limit included with your specific
-                    plan, click Calculate my price. If your plan's contact or email send
+                    plan, click Calculate my price. If your plan&apos;s contact or email send
                     limit is exceeded, you will be charged for overages.
                 </p>
                 </div>
