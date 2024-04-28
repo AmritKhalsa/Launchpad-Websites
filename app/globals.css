@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --shadow: rgba(0,0,0,.2);
+  scroll-behavior: smooth;
+}
+.dark {
+  --shadow: rgba(167, 166, 166, 0.2);
+}
+.boxx{
+  position: relative;
+  transition-duration: .2s;
+}
+
+.boxx:hover{
+  transform: translateY(-10px);
+}
+.boxx::before {
+  content: '';
+  position: absolute;
+  height: 50px;
+  width: 80%;
+  top: 80px;
+  opacity: 1;
+  background: radial-gradient(ellipse at center, var(--shadow) 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%);
+}
+@media (max-width: 768px) {
+  .boxx::before {
+    background: none
+  }
+  
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
