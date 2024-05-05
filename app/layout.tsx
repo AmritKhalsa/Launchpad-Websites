@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Launchpad Websites",
-  description: "Launch your custom website | Design and Deployment | E-commerce, SEO, Hosting, and Maintenance",
+  description: "Customizable website design and deployment services! 🚀",
 };
 
 export default function RootLayout({

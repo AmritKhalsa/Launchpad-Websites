@@ -49,7 +49,7 @@ export default function Hero() {
             src="/hero.webp"
             width={750}
             height={500}
-            alt="Vercel"
+            alt="Build your website"
         />
       </div>
     </div>
@@ -68,9 +68,9 @@ export default function Hero() {
           />
         </svg>
         <div>
-          <h1 className="mb-1 text-lg font-semibold leading-tight text-fourth-800 dark:text-white">
+          <h2 className="mb-1 text-lg font-semibold leading-tight text-fourth-800 dark:text-white">
             Customizable Websites
-          </h1>
+          </h2>
           <p className="font-light text-gray-500 dark:text-gray-400">
             Fully customizable website design to fit your brand and identity.
           </p>
@@ -90,9 +90,9 @@ export default function Hero() {
           />
         </svg>
         <div>
-          <h1 className="mb-1 text-lg font-semibold leading-tight text-fourth-800 dark:text-white">
+          <h2 className="mb-1 text-lg font-semibold leading-tight text-fourth-800 dark:text-white">
             Deployment options
-          </h1>
+          </h2>
           <p className="font-light text-gray-500 dark:text-gray-400">
             Website hosting and deployment as little as $10 per month.
           </p>
@@ -112,9 +112,9 @@ export default function Hero() {
           />
         </svg>
         <div>
-          <h1 className="mb-1 text-lg font-semibold leading-tight text-fourth-800 dark:text-white">
+          <h2 className="mb-1 text-lg font-semibold leading-tight text-fourth-800 dark:text-white">
             Analitics and Insights
-          </h1>
+          </h2>
           <p className="font-light text-gray-500 dark:text-gray-400">
             We provide you with the tools to track your website&apos;s performance.
           </p>
